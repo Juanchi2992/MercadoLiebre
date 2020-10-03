@@ -1,0 +1,72 @@
+main{
+    margin: 20px;
+    
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+main input{
+    border-radius: 3px;
+    border-style: none;
+    height: 30px;
+    width: 80vw;
+    padding: 0px 5px;
+}
+
+main button{
+    background-color: #03264C;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 80vw;   
+    margin: 20px 0px; 
+}
+
+form p,
+label{
+    font-weight: 700;
+    font-size: 16px;;
+}
+
+#borrar{
+    background-color: brown;
+}
+
+#perfil{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+#perfil input{
+    display: inline;
+    width: 12px;
+    height: 12px;
+
+}
+
+#intereses{
+    display: flex;
+    justify-content: space-around;
+}
+
+#intereses input{
+    display: inline;
+    flex-wrap: wrap;
+    width: 12px;
+    margin: 0px 20px 0px 0px;
+    
+}
+
+#intereses div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

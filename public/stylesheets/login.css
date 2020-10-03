@@ -1,0 +1,29 @@
+main{
+    margin: 20px;
+    
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+main input{
+    border-radius: 3px;
+    border-style: none;
+    height: 30px;
+    width: 80vw;
+    padding: 0px 5px;
+}
+
+main button{
+    background-color: #03264C;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 80vw;   
+    margin: 20px 0px; 
+}

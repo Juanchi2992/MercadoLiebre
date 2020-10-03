@@ -1,0 +1,414 @@
+/* Body General */
+
+body {     
+  margin: 0px;                                     
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #f2f2f2;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 12px;
+}
+
+a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #03264C;
+  text-decoration: none;
+}
+
+i {
+  display: flex;
+}
+
+input:focus{
+  border: white solid 1.5px;
+}
+
+img{
+  display: inline;
+  width: 100%;
+}
+
+
+/* Header */
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EAC926;
+  font-weight: 100; 
+  
+}
+
+
+#primeraSeccion{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+  
+}
+
+#logo{
+  width: 200px;
+  display: inline;
+  margin: 10px;
+}
+
+#search{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  width: 180px;
+  padding: 5px 0px;
+  margin: 10px 0px;
+}
+
+#searchBox{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  border-style: hidden;
+  font-weight: 200;
+}
+
+#searchBox:focus{
+  border: none;
+}
+
+#lupa{
+  color: #666;
+  background-color: white;
+}
+
+#segundaSeccion{
+  margin: 10px 0px;
+}
+
+#iconoCompra {
+  color: #03264C;
+}
+
+.compra{
+  display: inline;
+  font-weight: 500;
+  font-size: 12px;
+  color: #03264C;
+}
+
+#menu{
+  color: white;
+  background-color: #03264C;
+  padding: 8px 8px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  
+}
+
+#menu:hover{
+  background-color: blue;
+  
+}
+
+#tercerSeccion{
+  display: none;
+}
+
+/* Productos */
+
+.titular{
+  font-size: 24px;  
+  background-color: #f2f2f2;
+  color: #666;
+  font-weight: 700;  
+  display: block;
+  width: 80vw;
+  text-align: left;
+  margin: 15px 0px;
+  align-self: flex-start;
+  
+}
+
+main section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px 20px 20px;
+  position: relative;
+}
+
+
+.product{  
+  margin-top: 10px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  align-self: flex-start;
+  
+}
+
+.product:hover{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.prodImg{
+  width: 300px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.prodBox{
+  border-top: solid #f2f2f2 2px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 25px;
+  
+}
+
+#iconoCamion{
+  color: #39b54a;
+  display:flex;
+  position: absolute;
+  border-radius: 50%;
+  border: solid #39b54a 2px;
+  width: 28px;
+  height: 28px;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  bottom: 38px;
+  right: 20px;
+}
+
+main section div ul{
+ padding: 0px 0px;
+ width: 80%;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ align-self: center;
+}
+
+.precio {
+  font-size: 18px;
+  font-weight: 500;
+  display: inline;
+  
+}
+
+.descuento{
+  font-size: 16px;
+  color: #39b54a;
+  font-weight: 500;
+  display: inline;
+  padding-left: 20px;
+}
+
+.descripcion{
+  font-size: 16px;
+  color: #666;
+  font-weight: 500;
+  display: none;
+  padding: 0px 25px;
+  margin: 0px 0px 20px 0px;
+}
+
+.product:hover .descripcion{
+  display: block;
+
+}
+
+.product:hover #iconoCamion{
+  bottom: 77px;
+}
+
+.product:hover #iconoCamion{
+  
+  transition: 1s;  
+}
+
+#camion{
+  color: #39b54a;
+}
+
+
+.check{
+  display: inline-block;
+}
+
+
+/* Footer */
+
+footer{
+  width: 100%;
+  background-color: white;  
+  padding: 20px;
+}
+
+footer section {  
+  text-align: center;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#iconoFoot{
+  color: #1259c3;  
+  margin: 8px;
+  size: 2em;
+}
+
+footer article{
+  width: 300px;
+  margin-top: 40px;
+}
+
+footer h4{
+  font-weight: 600;
+  color: #666;
+  margin: 0px;
+}
+
+footer p{
+  color: #666;
+  font-weight: 500;
+  margin: 0px;
+}
+
+#copy{
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  align-self: flex-start;
+}
+
+
+
+/* Responsive Tablet */
+
+@media(min-width: 361px){  
+
+  #segundaSeccion{
+    display: none;
+  }
+
+  #terceraSeccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  #terceraSeccion ul{
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #terceraSeccion ul li{
+    padding: 0px 8px;
+  }
+
+  main section{
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px 50px;
+    
+  }
+
+  .titular{
+    display: flex;
+    justify-self: flex-start;
+  }
+
+  .product{
+    margin-bottom: 20px;
+  }  
+}
+
+
+/* Responsive Laptop */
+
+@media(min-width: 769px){
+  
+  #terceraSeccion ul{
+    margin: 20px 25px;
+  }
+
+  #search{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  main section{
+    margin-bottom: 50px;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+
+
+  footer{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+  
+  footer section{
+    flex-direction: row;  
+    align-items: flex-start;
+  }
+
+  footer section article{
+    margin: 0px 20px;
+  }
+
+  #copy{
+    display: block;
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+
+}
+
+/* 
+
+COLORES
+
+- Celeste #1259c3 
+- Azul #03264C
+- Verde #39b54a
+- Gris Claro #f2f2f2 
+- Gris Oscuro #666
+- Amarillo #EAC926
+
+*/
